@@ -7,8 +7,9 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'Custom' ">
     <StartAction>Project</StartAction>
+    <ExternalConsole>true</ExternalConsole>
     <ApplicationURL>https://localhost:61281;http://localhost:42229</ApplicationURL>
-    <LaunchBrowser>false</LaunchBrowser>
+    <LaunchBrowser></LaunchBrowser>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
