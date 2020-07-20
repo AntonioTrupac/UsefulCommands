@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Custom' ">
+    <StartAction>Project</StartAction>
+    <ApplicationURL>https://localhost:61281;http://localhost:42229</ApplicationURL>
+    <LaunchBrowser>false</LaunchBrowser>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+</Project>
